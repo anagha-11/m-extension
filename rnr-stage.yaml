@@ -13,5 +13,16 @@ stage: single_cycle_riscv_m
 
 modules:
   single_cycle_riscv_m:
-    source_files:
-      - Single_Cycle_RISCV_M/rtl.sv
+    source_files: 
+      - single_cycle_rv32i.sv
+      - alu.sv
+      - alu_control.sv
+      - decoder.sv
+      - execute.sv
+      - id_stage.sv
+      - if_stage.sv
+      - imm_generator.sv
+      - main_control.sv
+      - register_file.sv
+      - wb_stage.sv
+    top_module: single_cycle_riscv
