@@ -14,15 +14,15 @@ stage: single_cycle_riscv_m
 modules:
   single_cycle_riscv_m:
     source_files: 
-      - single_cycle_rv32i.sv
-      - alu.sv
-      - alu_control.sv
-      - decoder.sv
-      - execute.sv
-      - id_stage.sv
-      - if_stage.sv
-      - imm_generator.sv
-      - main_control.sv
-      - register_file.sv
-      - wb_stage.sv
+      - Single_Cycle_RISCV_M/single_cycle_rv32i.sv
+      - Single_Cycle_RISCV_M/alu.sv
+      - Single_Cycle_RISCV_M/alu_control.sv
+      - Single_Cycle_RISCV_M/decoder.sv
+      - Single_Cycle_RISCV_M/execute.sv
+      - Single_Cycle_RISCV_M/id_stage.sv
+      - Single_Cycle_RISCV_M/if_stage.sv
+      - Single_Cycle_RISCV_M/imm_generator.sv
+      - Single_Cycle_RISCV_M/main_control.sv
+      - Single_Cycle_RISCV_M/register_file.sv
+      - Single_Cycle_RISCV_M/wb_stage.sv
     top_module: single_cycle_riscv
